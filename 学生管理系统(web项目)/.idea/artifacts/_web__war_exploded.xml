@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="学生管理系统(web项目):war exploded">
+    <output-path>$PROJECT_DIR$/target/student_system</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>学生管理系统(web项目)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="学生管理系统(web项目)" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:7.0.47" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.46" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/student_system/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="学生管理系统(web项目)/web/Web" />
+    </root>
+  </artifact>
+</component>

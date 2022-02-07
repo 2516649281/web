@@ -1,0 +1,171 @@
+* {
+	font-family: "宋体";
+	transition: 0.6s;
+}
+
+body {
+	background: linear-gradient(to left, #4776e6, #8e54e9);
+}
+
+.main {
+	width: 800px;
+	height: 600px;
+	border: 1px white solid;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+	/* border: 1px red solid; */
+	color: yellowgreen;
+}
+
+.top {
+	width: 400px;
+}
+
+.text::-webkit-input-placeholder {
+	transition: 0.6s;
+	color: white;
+}
+
+.text:focus::-webkit-input-placeholder {
+	transition: 0.6s;
+	color: red;
+}
+
+.text {
+	width: 500px;
+	height: 50px;
+	/* border: 1px white solid; */
+	margin: 10px 150px;
+	border-radius: 25px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	outline: none;
+	transition: 0.6s;
+	border: 1px white solid;
+}
+
+.text:focus {
+	width: 500px;
+	height: 50px;
+	border: 1px red solid;
+	margin: 10px 150px;
+	border-radius: 25px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	border-color: red;
+	transition: 0.6s;
+}
+
+.ver {
+	width: 200px;
+	height: 50px;
+	border: 1px white solid;
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+	border-radius: 25px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	transition: 0.6s;
+	border: 1px white solid;
+	float: left;
+}
+
+.ver:focus {
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	border: 1px red solid;
+	outline: none;
+	transition: 0.6s;
+	float: left;
+}
+
+.ver::-webkit-input-placeholder {
+	transition: 0.6s;
+	color: white;
+}
+
+.ver:focus::-webkit-input-placeholder {
+	transition: 0.6s;
+	color: red;
+}
+
+.button {
+	width: 400px;
+	margin: 10px auto;
+	/* border: 1px red solid; */
+}
+
+.but {
+	width: 150px;
+	height: 50px;
+	border: 1px white solid;
+	margin: auto 23px;
+	border-radius: 25px;
+	transition: 0.6s;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+	transition: 0.6s;
+}
+
+.but:hover {
+	width: 150px;
+	height: 50px;
+	border: 1px white solid;
+	margin: auto 23px;
+	border-radius: 25px;
+	background: green;
+	color: white;
+	transition: 0.6s;
+}
+.number {
+	width: 100px;
+	height: 50px;
+	/* border: 1px red solid; */
+	float: left;
+	text-align: center;
+}
+.login {
+	font-size: 15px;
+	color: red;
+	/* border: 1px red solid; */
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+.check {
+	width: 750px;
+	height: 75px;
+}
+#checkImg {
+	font-size: 20px;
+	text-align: center;
+	/* border: 1px red solid; */
+	color: yellow;
+	transition: 0.6s;
+}
+#checkImg:hover {
+	font-size: 20px;
+	text-align: center;
+	/* border: 1px red solid; */
+	color: red;
+	transition: 0.6s;
+}

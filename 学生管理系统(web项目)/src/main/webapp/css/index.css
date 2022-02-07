@@ -1,0 +1,173 @@
+/* body {
+	width: 1250px;
+	height: 669px;
+	background: url("../img/img.png") no-repeat fixed;
+	background-image: linear-gradient(
+		to left,
+		#cc95c0,
+		#cc95c0,
+		#dbd4b4,
+		#dbd4b4,
+		#7aa1d2,
+		#7aa1d2
+	);
+	background-size: cover;
+	border: #000000 5px solid;
+	margin: 0 auto;
+} */
+body {
+    background: linear-gradient(
+            125deg,
+            #77a1d3 0%,
+            #79cbca 20%,
+            #e684ae 40%,
+            #ff6e7f 60%,
+            #e55d87 80%,
+            #77a1d3 100%
+    );
+    background-size: 200% 100%;
+    background-position: 0 0;
+    animation: bgposition 8s infinite linear alternate;
+    width: 1250px;
+    height: 669px;
+    border: #000000 5px solid;
+    margin: 0 auto;
+}
+
+@keyframes bgposition {
+    0% {
+        background-position: 0 0;
+    }
+    20% {
+        background-position: 20% 10%;
+    }
+    40% {
+        background-position: 40% 20%;
+    }
+    60% {
+        background-position: 60% 20%;
+    }
+    80% {
+        background-position: 80% 10%;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.left_main {
+    width: 400px;
+    height: 669px;
+    border: #000000 1px solid;
+}
+
+.text-center {
+    font-family: "华文宋体";
+    text-align: center;
+    background: linear-gradient(
+            #5433ff,
+            #7f00ff,
+            #e100ff,
+            #642b73,
+            #4364f7,
+            #5433ff
+    );
+    /* background-size: 200% 100%; */
+    /* background-position: 0 0; */
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.left_img {
+    width: 200px;
+    height: 200px;
+}
+
+.img {
+    margin-left: 130px;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: left;
+}
+
+.right_table {
+    border: green 1px solid;
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+    color: #ffff99;
+    font-family: "楷体";
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    background-color: #00ccff;
+    border-radius: 30px;
+    margin: 15px 108px;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: green;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 15px 108px;
+    color: #ffffff;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.ye_butt {
+    transition: 1s;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.ye_butt:hover {
+    transition: 1s;
+    background: green;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.ye_but {
+    transition: 1s;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.ye_but:hover {
+    transition: 1s;
+    background: green;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}

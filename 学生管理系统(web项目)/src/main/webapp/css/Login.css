@@ -1,0 +1,112 @@
+* {
+	font-family: "宋体";
+	transition: 0.6s;
+}
+
+body {
+	background: linear-gradient(to left, #4776e6, #8e54e9);
+}
+
+.main {
+	width: 800px;
+	height: 600px;
+	border: 1px white solid;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	width: 150px;
+	height: 50px;
+	margin: 30px auto;
+	color: #10ddc2;
+}
+
+.text {
+	transition: 0.6s;
+	border: 1px white solid;
+	width: 400px;
+	height: 60px;
+	border-radius: 30px;
+	margin: 20px 200px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0);
+	color: white;
+}
+
+.text::-webkit-input-placeholder {
+	transition: 0.6s;
+	color: white;
+}
+
+.text:focus::-webkit-input-placeholder {
+	transition: 0.6s;
+	color: red;
+}
+
+.but {
+	width: 150px;
+	height: 50px;
+	border: 1px white solid;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-left: 167px;
+	transition: 0.6s;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: greenyellow;
+	font-size: 15px;
+}
+
+.but:hover {
+	width: 150px;
+	height: 50px;
+	border: 1px white solid;
+	border-radius: 25px;
+	margin-top: 30px;
+	margin-left: 167px;
+	background-color: #008000;
+	color: white;
+	transition: 0.6s;
+	font-size: 15px;
+}
+
+.password_No {
+	width: 100px;
+	height: 30px;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+.password_No:hover {
+	width: 100px;
+	height: 30px;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+.password_a {
+	transition: 0.3s;
+	color: red;
+}
+
+.password_a:hover {
+	transition: 0.3s;
+	color: yellow;
+}
+
+.text:focus {
+	outline: none;
+	transition: 0.6s;
+	border: 1px red solid;
+}
+.login {
+	width: 500px;
+	height: 20px;
+	/* border: 1px red solid; */
+	margin: 20px auto;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}

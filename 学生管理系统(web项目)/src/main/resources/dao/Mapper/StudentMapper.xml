@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD dao.Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.Mapper.StudentMapper">
+    <!--    添加学生-->
+    <insert id="Add" parameterType="dao.pojo.Student">
+        insert into student (id, name, age, sex, address)
+        values (#{id}, #{name}, #{age}, #{sex}, #{address});
+    </insert>
+
+    <!--    查看学生-->
+    <select id="SelectAll" resultType="dao.pojo.Student">
+        select *
+        from student
+    </select>
+
+    <!--    删除学生-->
+    <delete id="Delete">
+        delete
+        from student
+        where id = #{id};
+    </delete>
+
+    <!--    修改学生-->
+    <update id="Edit">
+        update student
+        <set>
+            <if test="name!=null and name!=''">name = #{name},</if>
+            <if test="age!=null and age!=''">age=#{age},</if>
+            <if test="sex!=null and sex!=''">sex=#{sex},</if>
+            <if test="address!=null and address!=''">address=#{address}</if>
+        </set>
+        where id = #{id};
+    </update>
+</mapper>
