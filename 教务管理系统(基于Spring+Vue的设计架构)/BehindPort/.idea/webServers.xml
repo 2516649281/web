@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="47f1be05-7221-4537-b8c4-f255e9142052" name="Linux">
+        <fileTransfer accessType="SFTP" host="192.168.126.128" port="22" sshConfigId="778e0ab1-2bb3-44aa-b7ca-cea0f44bff5d" sshConfig="root@192.168.126.128:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f0ac85fe-fd83-4cc3-b964-32105a1c16c5" name="localhost" url="http://localhost">
+        <fileTransfer mountedRoot="D:\" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
