@@ -12,25 +12,19 @@
 
 #### 技术架构
 
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151403904-2111838595.png)
-
+![image-20220203211341773](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/image-20220203211341773.png>)
 
 #### 学生端
 
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151418929-1665329852.png)
-
+![image-20220203202043027](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/image-20220203202043027.png>)
 
 #### 教师端
 
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151525707-1982226565.png)
-
-
+![image-20220203202932206](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/image-20220203202932206.png>)
 
 #### 管理员
 
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151534121-932522852.png)
-
-
+![image-20220203203910745](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/image-20220203203910745.png>)
 
 ### 2.项目结构
 
@@ -56,7 +50,7 @@ Vue @vue/cli 4.5.15
 
 ### 表结构
 
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151549174-1627301475.png)
+![data](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/StudentWorkSystem.png>)
 
 ### 脚本
 
@@ -202,22 +196,24 @@ CREATE TABLE `work`
 #### 数据层
 
 > 以 mybatis plus 为框架
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151642071-1891032235.png)
+
+![Snipaste_2022-02-11_15-27-46.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-11_15-27-46.png>)
 
 #### 业务层
 
 > 直接与数据层交互
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151654022-934535632.png)
+
+![Snipaste_2022-02-11_15-30-42.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-11_15-30-42.png>)
 
 #### 表现层
 
 > 与业务层交互
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151708727-701205421.png)
+
+![Snipaste_2022-02-11_15-33-04.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-11_15-33-04.png>)
 
 ### 2.核心业务代码
 
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151717416-1281622222.png)
-
+![Snipaste_2022-02-11_15-36-42.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-11_15-36-42.png>)
 
 > 由于项目前后端分离，在这里用于与前端交互数据，前端向后端服务器发送各种请求，后端将返回 Json 用于响应
 
@@ -318,71 +314,74 @@ private Object data;//数据
 ## 五、前端开发
 
 ### 1.核心结构
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151815022-745902277.png)
+
+![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_10-52-19.png>)
 
 ### 2.登录及注册界面
 
 > 登录功能
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151825248-149868612.png)
+> ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_10-54-51.png>)
 
 > 注册功能
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151835439-1101894859.png)
+> ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_10-55-38.png>)
 
 > 登录验证功能
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151845134-1290959418.png)
+> ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_10-57-29.png>)
 
 ### 2.教师端
 
 #### 核心代码
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151856636-225762859.png)
 
+![Snipaste_2022-02-21_09-18-31.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-21_09-18-31.png>)
 
 #### 核心效果
 
 1. 查看功能
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151907661-1217396797.png)
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151921198-2116715000.png)
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226151956474-507212640.png)
+   ![Snipaste_2022-02-21_09-12-42.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-21_09-12-42.png>)
+   ![Snipaste_2022-02-21_09-13-44.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-21_09-13-44.png>)
+   ![Snipaste_2022-02-21_09-13-55.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-21_09-13-55.png>)
 
    > 在此板块中，教师用于查看一个班级布置的所有作业，可以向一个班级发布一次作业，修改作业，甚至删除作业(此功能需谨慎使用！)
 
 2. 批改功能
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152130803-1118961051.png)
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152142303-965837574.png)
+   ![Snipaste_2022-02-21_09-13-09.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-21_09-13-09.png>)
+   ![Snipaste_2022-02-21_09-15-24.png](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-21_09-15-24.png>)
    > 在此板块中，教师主要用于直观的查看班级作业提交情况，下拉列表设有分数系统，教师可根据作业以及学生的完成情况进行人性化的处理
 
 ### 3.学生端
 
 #### 核心代码
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152152159-442417827.png)
+
+![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_10-56-34.png>)
 
 1. 整体界面
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152205952-1943781186.png)
+   ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_10-59-07.png>)
 
 2. 查看作业
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152218265-1396342915.png)
+   ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-01-22.png>)
 
 3. 查看班级作业
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152247360-852512185.png)
+   ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-02-50.png>)
 
 ### 4.管理端
 
 #### 核心代码
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152300778-1899983218.png)
+
+![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-04-00.png>)
 
 1. 管理学生
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152315119-1370152927.png)
+   ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-06-56.png>)
 
 2. 管理教师
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152329334-1642813027.png)
+   ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-08-45.png>)
 
 3. 管理用户
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152339484-217918856.png)
+   ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-11-46.png>)
 
 ### 5.账号管理
 
 > 这个页面为三个端口公共的部分
-![](https://img2022.cnblogs.com/blog/2737018/202202/2737018-20220226152349784-1010853422.png)
+> ![](<https://gitee.com/cfnjs/web/raw/master/教务管理系统(基于Spring+Vue的设计架构)/img/Snipaste_2022-02-26_11-13-15.png>)
 
 已知的未修复的 bug 及临时解决方案:
 
@@ -394,7 +393,7 @@ private Object data;//数据
 
 项目完结时间：2022 年 2 月 26 日
 
-作者：春风能解释(前端&后端)
+作者：春风能解释
 
 项目 git 地址：
-https://gitee.com/cfnjs/web/tree/master/%E6%95%99%E5%8A%A1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F(%E5%9F%BA%E4%BA%8ESpring+Vue%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84)
+https://gitee.com/cfnjs/web/tree/master/教务管理系统(基于Spring+Vue的设计架构)
