@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258b7244-955e-45a0-b6db-856090f7ef14" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="258b7244-955e-45a0-b6db-856090f7ef14" name="默认变更列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,12 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -83,7 +87,7 @@
       <workItem from="1645845700995" duration="723000" />
       <workItem from="1646185161894" duration="1067000" />
       <workItem from="1646187419616" duration="68000" />
-      <workItem from="1648167837279" duration="1907000" />
+      <workItem from="1648167837279" duration="2254000" />
     </task>
     <task id="LOCAL-00001" summary="StudentSystem">
       <created>1644211620135</created>
@@ -99,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645845888347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="StudentWorkSystem">
+      <created>1648169775818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648169775818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +144,6 @@
     <MESSAGE value="StudentSystem" />
     <MESSAGE value="StudentWorkSystem" />
     <option name="LAST_COMMIT_MESSAGE" value="StudentWorkSystem" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
